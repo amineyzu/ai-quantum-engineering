@@ -1,0 +1,35 @@
+{
+    "title": "AI-Driven Quantum Software Engineering",
+    "description": "An open-source framework for automated quantum code generation and refactoring using artificial intelligence.",
+    "creators": [
+        {
+            "name": "Abdelouareth, Mohammed Amine",
+            "affiliation": "Yangzhou University",
+            "orcid": "0000-0000-0000-0000"
+        }
+    ],
+    "keywords": [
+        "quantum computing",
+        "artificial intelligence",
+        "software engineering",
+        "code generation",
+        "circuit optimization"
+    ],
+    "license": {
+        "id": "MIT"
+    },
+    "upload_type": "software",
+    "access_right": "open",
+    "communities": [
+        {
+            "identifier": "quantum-computing"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Abdelouareth, Mohammed Amine",
+            "type": "ContactPerson",
+            "email": "chinajiyanxin@gmail.com"
+        }
+    ]
+} 

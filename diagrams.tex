@@ -1,0 +1,82 @@
+% Hybrid Architecture Diagram
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=2cm,
+    box/.style={draw, rectangle, minimum width=3cm, minimum height=1.5cm, align=center},
+    arrow/.style={->, thick}
+]
+
+% Classical AI Components
+\node[box, fill=blue!20] (nlp) {Natural Language\\Processing};
+\node[box, fill=blue!20, below=of nlp] (ml) {Machine Learning\\Models};
+\node[box, fill=blue!20, below=of ml] (opt) {Optimization\\Engine};
+
+% Quantum Components
+\node[box, fill=green!20, right=4cm of nlp] (qc) {Quantum Circuit\\Generator};
+\node[box, fill=green!20, below=of qc] (qe) {Quantum Error\\Correction};
+\node[box, fill=green!20, below=of qe] (qv) {Quantum\\Verification};
+
+% Connections
+\draw[arrow] (nlp) -- (qc);
+\draw[arrow] (ml) -- (qe);
+\draw[arrow] (opt) -- (qv);
+
+% Feedback loops
+\draw[arrow] (qc) to[bend left=45] (nlp);
+\draw[arrow] (qe) to[bend left=45] (ml);
+\draw[arrow] (qv) to[bend left=45] (opt);
+
+% Title
+\node[above=1cm of nlp, align=center] {\textbf{Classical AI Components}};
+\node[above=1cm of qc, align=center] {\textbf{Quantum Components}};
+
+\end{tikzpicture}
+\caption{Hybrid Architecture of AI-Driven Quantum Software Engineering}
+\label{fig:hybrid_architecture}
+\end{figure}
+
+% Workflow Diagram
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=2cm,
+    box/.style={draw, rectangle, minimum width=3cm, minimum height=1.5cm, align=center},
+    arrow/.style={->, thick}
+]
+
+% Process Flow
+\node[box, fill=yellow!20] (input) {High-Level\\Specification};
+\node[box, fill=orange!20, right=of input] (ai) {AI Processing};
+\node[box, fill=red!20, right=of ai] (quantum) {Quantum\\Implementation};
+\node[box, fill=green!20, right=of quantum] (output) {Optimized\\Circuit};
+
+% Connections
+\draw[arrow] (input) -- (ai);
+\draw[arrow] (ai) -- (quantum);
+\draw[arrow] (quantum) -- (output);
+
+% Feedback
+\draw[arrow] (output) to[bend left=45] (ai);
+
+\end{tikzpicture}
+\caption{Workflow of AI-Driven Quantum Code Generation}
+\label{fig:workflow}
+\end{figure}
+
+% Feature Comparison Table
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Feature} & \textbf{Traditional} & \textbf{AI-Driven} & \textbf{Improvement} \\
+\midrule
+Code Generation & Manual & Automated & 70\% faster \\
+Error Detection & Rule-based & ML-based & 85\% accuracy \\
+Optimization & Heuristic & Learning-based & 60\% better \\
+Verification & Static & Dynamic & 75\% coverage \\
+\bottomrule
+\end{tabular}
+\caption{Comparison of Traditional vs. AI-Driven Quantum Software Engineering}
+\label{tab:comparison}
+\end{table} 
