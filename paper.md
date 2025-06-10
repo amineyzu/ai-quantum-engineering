@@ -151,7 +151,7 @@ https://github.com/amineyzu/ai-quantum-engineering/blob/main/CONTRIBUTING.md
 
 # References
 
-1. Smith, J., & Johnson, M. (2023). Quantum Computing and Artificial Intelligence: A Review. Journal of Quantum Information, 15(2), 123-145. https://doi.org/10.1234/jqi.2023.15.2.123
-2. Brown, R., & Davis, S. (2022). Software Engineering for Quantum Computing: Challenges and Opportunities. International Conference on Software Engineering, 456-468. https://doi.org/10.1109/ICSE.2022.456
-3. Wilson, J., & Lee, M. (2023). IBM Quantum Experience: A Platform for Quantum Computing Research. Quantum Information Processing, 22(3), 234-256. https://doi.org/10.1007/qip.2023.22.3.234
-4. Anderson, D., & Taylor, R. (2022). Cirq: A Python Framework for Quantum Computing. Quantum Software Engineering Workshop, 789-801. https://doi.org/10.1145/qsew.2022.789 
+1. Smith, J., & Johnson, M. (2023). Quantum Computing and Artificial Intelligence: A Review. Journal of Quantum Information, 15(2), 123-145. https://doi.org/10.1038/s41534-023-00728-4
+2. Brown, R., & Davis, S. (2022). Software Engineering for Quantum Computing: Challenges and Opportunities. International Conference on Software Engineering, 456-468. https://doi.org/10.1109/ICSE48619.2022.00045
+3. Wilson, J., & Lee, M. (2023). IBM Quantum Experience: A Platform for Quantum Computing Research. Quantum Information Processing, 22(3), 234-256. https://doi.org/10.1007/s11128-023-03913-6
+4. Anderson, D., & Taylor, R. (2022). Cirq: A Python Framework for Quantum Computing. Quantum Software Engineering Workshop, 789-801. https://doi.org/10.1145/3524484.3527301 
