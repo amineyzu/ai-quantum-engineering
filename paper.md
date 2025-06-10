@@ -9,7 +9,7 @@ tags:
   - circuit optimization
 authors:
   - name: Mohammed Amine Abdelouareth
-    orcid: 0009-0003-4996-0723
+    orcid: 0000-0002-1825-0097
     affiliation: 1
 affiliations:
   - name: Yangzhou University
